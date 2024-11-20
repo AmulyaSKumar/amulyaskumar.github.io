@@ -1,0 +1,38 @@
+title: "My GitHub Pages Site"
+description: "A brief description of your site."
+theme: minima
+
+# Site URL
+url: "https://yourusername.github.io"
+baseurl: "/repository-name" # Leave this blank if deploying to the root
+
+# Repository settings
+repository: yourusername/repository-name
+plugins:
+  - jekyll-feed # Adds RSS feed support (optional)
+
+# Social links
+social_links:
+  twitter: https://twitter.com/yourusername
+  github: https://github.com/yourusername
+  linkedin: https://linkedin.com/in/yourusername
+
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Markdown options
+markdown: kramdown
+highlighter: rouge
+
+# Theme-specific configuration (optional)
+minima:
+  header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    show_title_text: true
